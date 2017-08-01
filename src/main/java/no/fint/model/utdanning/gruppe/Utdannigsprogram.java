@@ -9,7 +9,9 @@ import no.fint.model.utdanning.basisklasser.Kodegruppe;
 @EqualsAndHashCode(callSuper = false)
 public class Utdannigsprogram extends Kodegruppe {
     public enum Relasjonsnavn {
-        PROGRAMOMRADE
+        PROGRAMOMRADE,
+        KODE,
+        MEDLEMSKAP
     }
 }
 

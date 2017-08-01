@@ -11,7 +11,9 @@ public class Programomrade extends Kodegruppe {
     public enum Relasjonsnavn {
         UTDANNINGSPROGRAM,
         FAG,
-        TRINN
+        TRINN,
+        KODE,
+        MEDLEMSKAP
     }
 }
 

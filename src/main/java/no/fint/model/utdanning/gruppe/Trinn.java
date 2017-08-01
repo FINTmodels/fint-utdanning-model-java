@@ -10,7 +10,9 @@ import no.fint.model.utdanning.basisklasser.Kodegruppe;
 public class Trinn extends Kodegruppe {
     public enum Relasjonsnavn {
         PROGRAMOMRADE,
-        BASISGRUPPE
+        BASISGRUPPE,
+        KODE,
+        MEDLEMSKAP
     }
 }
 

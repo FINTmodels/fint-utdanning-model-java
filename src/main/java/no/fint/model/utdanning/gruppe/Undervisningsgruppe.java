@@ -12,7 +12,9 @@ public class Undervisningsgruppe extends Kodegruppe {
     private Kontaktinformasjon kontaktinformasjon;
 
     public enum Relasjonsnavn {
-        FAG
+        FAG,
+        KODE,
+        MEDLEMSKAP
     }
 }
 

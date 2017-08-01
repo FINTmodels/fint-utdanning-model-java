@@ -9,7 +9,9 @@ import no.fint.model.utdanning.basisklasser.Kodegruppe;
 @EqualsAndHashCode(callSuper = false)
 public class Eksamengruppe extends Kodegruppe {
     public enum Relasjonsnavn {
-        FAG
+        FAG,
+        KODE,
+        MEDLEMSKAP
     }
 }
 

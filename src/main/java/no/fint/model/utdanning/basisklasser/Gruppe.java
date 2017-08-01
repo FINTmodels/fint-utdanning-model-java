@@ -23,9 +23,5 @@ public abstract class Gruppe implements Identifiable {
     public String getId() {
         return this.getSystemId().getIdentifikatorverdi();
     }
-
-    public enum Relasjonsnavn {
-        MEDLEMSKAP
-    }
 }
 

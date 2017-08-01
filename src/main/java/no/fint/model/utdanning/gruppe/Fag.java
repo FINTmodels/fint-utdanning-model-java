@@ -11,7 +11,9 @@ public class Fag extends Kodegruppe {
     public enum Relasjonsnavn {
         PROGRAMOMRADE,
         EKSAMENGRUPPE,
-        UNDERVISNINGSGRUPPE
+        UNDERVISNINGSGRUPPE,
+        KODE,
+        MEDLEMSKAP
     }
 }
 
