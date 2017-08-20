@@ -9,6 +9,7 @@ public enum OrganisasjonActions {
     GET_ALL_SKOLE,
     UPDATE_SKOLE;
 
+
     /**
      * Gets a list of all enums as string
      *

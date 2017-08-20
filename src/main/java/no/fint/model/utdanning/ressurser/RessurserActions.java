@@ -12,6 +12,7 @@ public enum RessurserActions {
     GET_ALL_ELEVRESSURS,
     UPDATE_ELEVRESSURS;
 
+
     /**
      * Gets a list of all enums as string
      *

@@ -1,6 +1,5 @@
 package no.fint.model.utdanning.kompleksedatatyper;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

@@ -9,6 +9,7 @@ public enum UtdanningActions {
     GET_ALL_MEDLEMSKAP,
     UPDATE_MEDLEMSKAP;
 
+
     /**
      * Gets a list of all enums as string
      *

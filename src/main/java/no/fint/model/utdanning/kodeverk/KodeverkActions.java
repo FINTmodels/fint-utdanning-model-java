@@ -18,6 +18,7 @@ public enum KodeverkActions {
     GET_ALL_SKOLEEIERTYPE,
     UPDATE_SKOLEEIERTYPE;
 
+
     /**
      * Gets a list of all enums as string
      *

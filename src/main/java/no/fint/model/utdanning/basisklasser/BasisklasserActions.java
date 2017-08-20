@@ -9,6 +9,7 @@ public enum BasisklasserActions {
     GET_ALL_UNDERVISNINGSFORHOLD,
     UPDATE_UNDERVISNINGSFORHOLD;
 
+
     /**
      * Gets a list of all enums as string
      *

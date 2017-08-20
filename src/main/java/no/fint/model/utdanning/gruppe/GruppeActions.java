@@ -12,6 +12,7 @@ public enum GruppeActions {
     GET_ALL_KONTAKTLARERGRUPPE,
     UPDATE_KONTAKTLARERGRUPPE;
 
+
     /**
      * Gets a list of all enums as string
      *
