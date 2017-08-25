@@ -1,3 +1,5 @@
+// Built from tag v1.1.0-rc2
+
 package no.fint.model.utdanning.ressurser;
 
 import java.util.Arrays;
@@ -10,7 +12,10 @@ public enum RessurserActions {
     UPDATE_ELEVFORHOLD,
     GET_ELEVRESSURS,
     GET_ALL_ELEVRESSURS,
-    UPDATE_ELEVRESSURS;
+    UPDATE_ELEVRESSURS,
+    GET_ROM,
+    GET_ALL_ROM,
+    UPDATE_ROM;
 
 
     /**

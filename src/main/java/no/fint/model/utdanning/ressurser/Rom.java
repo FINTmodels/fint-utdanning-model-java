@@ -1,6 +1,6 @@
 // Built from tag v1.1.0-rc2
 
-package no.fint.model.utdanning;
+package no.fint.model.utdanning.ressurser;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,15 +12,12 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
-public class Medlemskap {
+public class Rom {
     public enum Relasjonsnavn {
-        MEDLEM,
-        FORTLOPENDEKARATER,
-        GRUPPE,
-        ENDELIGKARAKTER,
-        FRAVAR
+        TIME
     }
 
+    private String navn;
     private Identifikator systemId;
 }
 

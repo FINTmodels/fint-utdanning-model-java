@@ -1,15 +1,15 @@
 // Built from tag v1.1.0-rc2
 
-package no.fint.model.utdanning;
+package no.fint.model.utdanning.timeplan;
 
 import java.util.Arrays;
 import java.util.List;
 
-public enum UtdanningActions {
+public enum TimeplanActions {
 
-    GET_MEDLEMSKAP,
-    GET_ALL_MEDLEMSKAP,
-    UPDATE_MEDLEMSKAP;
+    GET_TIME,
+    GET_ALL_TIME,
+    UPDATE_TIME;
 
 
     /**
@@ -19,7 +19,7 @@ public enum UtdanningActions {
      */
     public static List<String> getActions() {
         return Arrays.asList(
-                Arrays.stream(UtdanningActions.class.getEnumConstants()).map(Enum::name).toArray(String[]::new)
+                Arrays.stream(TimeplanActions.class.getEnumConstants()).map(Enum::name).toArray(String[]::new)
         );
     }
 

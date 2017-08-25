@@ -1,3 +1,5 @@
+// Built from tag v1.1.0-rc2
+
 package no.fint.model.utdanning.basisklasser;
 
 import lombok.AllArgsConstructor;
@@ -11,7 +13,7 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @NoArgsConstructor
 @EqualsAndHashCode
 public abstract class Utdanningsforhold {
-    private Identifikator systemId;
     private String kommentar;
+    private Identifikator systemId;
 }
 

@@ -1,3 +1,5 @@
+// Built from tag v1.1.0-rc2
+
 package no.fint.model.utdanning.kompleksedatatyper;
 
 import lombok.AllArgsConstructor;
@@ -12,7 +14,7 @@ import no.fint.model.felles.kompleksedatatyper.Periode;
 @EqualsAndHashCode
 public class Fravar {
     private boolean erFravaretGyldig;
-    private String kommentar;
     private Periode gjelderPeriode;
+    private String kommentar;
 }
 

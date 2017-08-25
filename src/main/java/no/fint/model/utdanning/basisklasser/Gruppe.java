@@ -1,3 +1,5 @@
+// Built from tag v1.1.0-rc2
+
 package no.fint.model.utdanning.basisklasser;
 
 import lombok.AllArgsConstructor;
@@ -12,7 +14,7 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @EqualsAndHashCode
 public abstract class Gruppe {
     private String beskrivelse;
-    private Identifikator systemId;
     private String navn;
+    private Identifikator systemId;
 }
 

@@ -1,3 +1,5 @@
+// Built from tag v1.1.0-rc2
+
 package no.fint.model.utdanning.organisasjon;
 
 import lombok.Data;
@@ -9,15 +11,15 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @EqualsAndHashCode(callSuper = false)
 public class Skole extends Enhet {
     public enum Relasjonsnavn {
-        SKOLEEIERTYPE,
         ORGANISASJON,
+        SKOLEEIERTYPE,
         UTDANNINGSPROGRAM
     }
 
-    private Identifikator skolenummer;
     private String domenenavn;
     private String juridiskNavn;
     private String navn;
+    private Identifikator skolenummer;
     private Identifikator systemId;
 }
 

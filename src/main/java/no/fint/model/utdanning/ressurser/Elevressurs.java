@@ -1,3 +1,5 @@
+// Built from tag v1.1.0-rc2
+
 package no.fint.model.utdanning.ressurser;
 
 import lombok.AllArgsConstructor;
@@ -13,14 +15,13 @@ import no.fint.model.felles.kompleksedatatyper.Kontaktinformasjon;
 @EqualsAndHashCode
 public class Elevressurs {
     public enum Relasjonsnavn {
-        FORESATT,
         PERSON,
         ELEVFORHOLD
     }
 
-    private Kontaktinformasjon kontaktinformasjon;
-    private Identifikator elevnummer;
     private Identifikator brukernavn;
+    private Identifikator elevnummer;
+    private Kontaktinformasjon kontaktinformasjon;
     private Identifikator systemId;
 }
 
