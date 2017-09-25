@@ -1,6 +1,6 @@
 // Built from tag v1.1.0-rc3
 
-package no.fint.model.utdanning.kodeverk;
+package no.fint.model.utdanning.vurdering;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,5 +11,9 @@ import no.fint.model.felles.basisklasser.Begrep;
 
 @Data
 @EqualsAndHashCode(callSuper=false)
-public class Elevkategori extends Begrep {}
+public class Karakterverdi extends Begrep {
+	public enum Relasjonsnavn {
+			SKALA
+	}
+}
 

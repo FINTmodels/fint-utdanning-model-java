@@ -1,4 +1,4 @@
-// Built from tag v1.1.0-rc2
+// Built from tag v1.1.0-rc3
 
 package no.fint.model.utdanning.basisklasser;
 
@@ -6,10 +6,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public enum BasisklasserActions {
-
-    GET_UNDERVISNINGSFORHOLD,
-    GET_ALL_UNDERVISNINGSFORHOLD,
-    UPDATE_UNDERVISNINGSFORHOLD;
+	
+	;
 
 
     /**

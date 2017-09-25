@@ -1,11 +1,12 @@
-// Built from tag v1.1.0-rc2
+// Built from tag v1.1.0-rc3
 
-package no.fint.model.utdanning;
+package no.fint.model.utdanning.elev;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
@@ -13,14 +14,14 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Medlemskap {
-    public enum Relasjonsnavn {
-        MEDLEM,
-        FORTLOPENDEKARATER,
-        GRUPPE,
-        ENDELIGKARAKTER,
-        FRAVAR
-    }
+	public enum Relasjonsnavn {
+			FRAVAR,
+			FORTLOPENDEVURDERING,
+			ENDELIGVURDERING,
+			MEDLEM,
+			GRUPPE
+	}
 
-    private Identifikator systemId;
-}
+	private Identifikator systemId;
+	}
 

@@ -7,9 +7,9 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+import no.fint.model.felles.basisklasser.Begrep;
+
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-@EqualsAndHashCode
-public class Vigokode {}
+@EqualsAndHashCode(callSuper=false)
+public class Fravarstype extends Begrep {}
 

@@ -1,19 +1,24 @@
 // Built from tag v1.1.0-rc3
 
-package no.fint.model.utdanning.kodeverk;
+package no.fint.model.utdanning.timeplan;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-import no.fint.model.felles.basisklasser.Begrep;
+import no.fint.model.utdanning.basisklasser.Gruppe;
 
 @Data
 @EqualsAndHashCode(callSuper=false)
-public class Karakterskala extends Begrep {
+public class Fag extends Gruppe {
 	public enum Relasjonsnavn {
-			VERDI
+			PROGRAMOMRADE,
+			UNDERVISNINGSGRUPPE,
+			EKSAMENSGRUPPE,
+			GREPKODE,
+			VIGOKODE,
+			MEDLEMSKAP
 	}
 }
 

@@ -1,4 +1,4 @@
-// Built from tag v1.1.0-rc2
+// Built from tag v1.1.0-rc3
 
 package no.fint.model.utdanning.timeplan;
 
@@ -6,10 +6,20 @@ import java.util.Arrays;
 import java.util.List;
 
 public enum TimeplanActions {
-
-    GET_TIME,
-    GET_ALL_TIME,
-    UPDATE_TIME;
+	
+	GET_FAG,
+	GET_ALL_FAG,
+	UPDATE_FAG,
+	GET_ROM,
+	GET_ALL_ROM,
+	UPDATE_ROM,
+	GET_TIME,
+	GET_ALL_TIME,
+	UPDATE_TIME,
+	GET_UNDERVISNINGSGRUPPE,
+	GET_ALL_UNDERVISNINGSGRUPPE,
+	UPDATE_UNDERVISNINGSGRUPPE
+	;
 
 
     /**

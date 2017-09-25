@@ -1,16 +1,15 @@
-// Built from tag v1.1.0-rc2
+// Built from tag v1.1.0-rc3
 
 package no.fint.model.utdanning.kodeverk;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import no.fint.model.utdanning.basisklasser.Gruppekode;
+import lombok.NoArgsConstructor;
 
 @Data
-@EqualsAndHashCode(callSuper = false)
-public class Grepkode extends Gruppekode {
-    public enum Relasjonsnavn {
-        VIGOKODE
-    }
-}
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
+public class Grepkode {}
 
