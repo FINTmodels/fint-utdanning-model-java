@@ -1,4 +1,4 @@
-// Built from tag v1.1.0-rc3
+// Built from tag v2.0.0
 
 package no.fint.model.utdanning.vurdering;
 
@@ -6,14 +6,13 @@ import java.util.Arrays;
 import java.util.List;
 
 public enum VurderingActions {
-	
-	GET_EKSAMENSGRUPPE,
-	GET_ALL_EKSAMENSGRUPPE,
-	UPDATE_EKSAMENSGRUPPE,
-	GET_KARAKTERVERDI,
-	GET_ALL_KARAKTERVERDI,
-	UPDATE_KARAKTERVERDI
-	;
+
+    GET_EKSAMENSGRUPPE,
+    GET_ALL_EKSAMENSGRUPPE,
+    UPDATE_EKSAMENSGRUPPE,
+    GET_KARAKTERVERDI,
+    GET_ALL_KARAKTERVERDI,
+    UPDATE_KARAKTERVERDI;
 
 
     /**

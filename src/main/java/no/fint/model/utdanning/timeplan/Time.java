@@ -1,4 +1,4 @@
-// Built from tag v1.1.0-rc3
+// Built from tag v2.0.0
 
 package no.fint.model.utdanning.timeplan;
 
@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.felles.kompleksedatatyper.Periode;
 
@@ -15,15 +14,14 @@ import no.fint.model.felles.kompleksedatatyper.Periode;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Time {
-	public enum Relasjonsnavn {
-			UNDERVISNINGSGRUPPE,
-			UNDERVISNINGSFORHOLD,
-			ROM
-	}
-
-	private String beskrivelse;
-	private Identifikator systemId;
-	private String tittel;
-	private Periode varighet;
-	}
+    private String beskrivelse;
+    private String navn;
+    private Identifikator systemId;
+    private Periode tidsrom;
+    public enum Relasjonsnavn {
+        UNDERVISNINGSGRUPPE,
+        UNDERVISNINGSFORHOLD,
+        ROM
+    }
+}
 

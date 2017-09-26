@@ -1,24 +1,21 @@
-// Built from tag v1.1.0-rc3
+// Built from tag v2.0.0
 
 package no.fint.model.utdanning.timeplan;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
-
 import no.fint.model.utdanning.basisklasser.Gruppe;
 
 @Data
-@EqualsAndHashCode(callSuper=false)
+@EqualsAndHashCode(callSuper = false)
 public class Fag extends Gruppe {
-	public enum Relasjonsnavn {
-			PROGRAMOMRADE,
-			UNDERVISNINGSGRUPPE,
-			EKSAMENSGRUPPE,
-			GREPKODE,
-			VIGOKODE,
-			MEDLEMSKAP
-	}
+    public enum Relasjonsnavn {
+        PROGRAMOMRADE,
+        UNDERVISNINGSGRUPPE,
+        EKSAMENSGRUPPE,
+        GREPREFERANSE,
+        VIGOREFERANSE,
+        MEDLEMSKAP
+    }
 }
 

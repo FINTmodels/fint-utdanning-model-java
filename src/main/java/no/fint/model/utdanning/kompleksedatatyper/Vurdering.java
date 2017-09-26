@@ -1,4 +1,4 @@
-// Built from tag v1.1.0-rc3
+// Built from tag v2.0.0
 
 package no.fint.model.utdanning.kompleksedatatyper;
 
@@ -12,10 +12,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Vurdering {
-	public enum Relasjonsnavn {
-			KARAKTER
-	}
+    private String kommentar;
 
-	private String kommentar;
-	}
+    public enum Relasjonsnavn {
+        KARAKTER
+    }
+}
 

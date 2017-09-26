@@ -1,4 +1,4 @@
-// Built from tag v1.1.0-rc3
+// Built from tag v2.0.0
 
 package no.fint.model.utdanning.elev;
 
@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.felles.kompleksedatatyper.Kontaktinformasjon;
 
@@ -15,14 +14,13 @@ import no.fint.model.felles.kompleksedatatyper.Kontaktinformasjon;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Elev {
-	public enum Relasjonsnavn {
-			PERSON,
-			ELEVFORHOLD
-	}
-
-	private Identifikator brukernavn;
-	private Identifikator elevnummer;
-	private Kontaktinformasjon kontaktinformasjon;
-	private Identifikator systemId;
-	}
+    private Identifikator brukernavn;
+    private Identifikator elevnummer;
+    private Kontaktinformasjon kontaktinformasjon;
+    private Identifikator systemId;
+    public enum Relasjonsnavn {
+        PERSON,
+        ELEVFORHOLD
+    }
+}
 

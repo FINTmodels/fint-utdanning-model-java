@@ -1,4 +1,4 @@
-// Built from tag v1.1.0-rc3
+// Built from tag v2.0.0
 
 package no.fint.model.utdanning.kompleksedatatyper;
 
@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-
 import no.fint.model.felles.kompleksedatatyper.Periode;
 
 @Data
@@ -14,13 +13,12 @@ import no.fint.model.felles.kompleksedatatyper.Periode;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Fravar {
-	public enum Relasjonsnavn {
-			FRAVARSTYPE
-	}
-
-	private boolean dokumentert;
-	private boolean foresPaVitnemal;
-	private Periode gjelderPeriode;
-	private String kommentar;
-	}
+    private boolean dokumentert;
+    private boolean foresPaVitnemal;
+    private Periode gjelderPeriode;
+    private String kommentar;
+    public enum Relasjonsnavn {
+        FRAVARSTYPE
+    }
+}
 

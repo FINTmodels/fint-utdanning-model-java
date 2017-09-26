@@ -1,4 +1,4 @@
-// Built from tag v1.1.0-rc3
+// Built from tag v2.0.0
 
 package no.fint.model.utdanning.timeplan;
 
@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
@@ -14,11 +13,10 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Rom {
-	public enum Relasjonsnavn {
-			TIME
-	}
-
-	private String navn;
-	private Identifikator systemId;
-	}
+    private String navn;
+    private Identifikator systemId;
+    public enum Relasjonsnavn {
+        TIME
+    }
+}
 
