@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import java.util.List;
+
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
@@ -13,10 +15,11 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Rom {
-    private String navn;
-    private Identifikator systemId;
-    public enum Relasjonsnavn {
-        TIME
-    }
-}
+	public enum Relasjonsnavn {
+			TIME
+	}
+
+	private String navn;
+	private Identifikator systemId;
+	}
 

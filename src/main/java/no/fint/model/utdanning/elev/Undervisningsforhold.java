@@ -2,17 +2,21 @@
 
 package no.fint.model.utdanning.elev;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import java.util.List;
+
 import no.fint.model.utdanning.basisklasser.Utdanningsforhold;
 
 @Data
-@EqualsAndHashCode(callSuper = false)
+@EqualsAndHashCode(callSuper=false)
 public class Undervisningsforhold extends Utdanningsforhold {
-    public enum Relasjonsnavn {
-        ARBEIDSFORHOLD,
-        TIME,
-        MEDLEMSKAP
-    }
+	public enum Relasjonsnavn {
+			ARBEIDSFORHOLD,
+			TIME,
+			MEDLEMSKAP
+	}
 }
 

@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import java.util.List;
+
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
@@ -13,7 +15,7 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @NoArgsConstructor
 @EqualsAndHashCode
 public abstract class Utdanningsforhold {
-    private String beskrivelse;
-    private Identifikator systemId;
-}
+	private String beskrivelse;
+	private Identifikator systemId;
+	}
 

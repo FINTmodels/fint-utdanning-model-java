@@ -2,18 +2,22 @@
 
 package no.fint.model.utdanning.elev;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import java.util.List;
+
 import no.fint.model.utdanning.basisklasser.Gruppe;
 
 @Data
-@EqualsAndHashCode(callSuper = false)
+@EqualsAndHashCode(callSuper=false)
 public class Kontaktlarergruppe extends Gruppe {
-    public enum Relasjonsnavn {
-        BASISGRUPPE,
-        GREPREFERANSE,
-        VIGOREFERANSE,
-        MEDLEMSKAP
-    }
+	public enum Relasjonsnavn {
+			BASISGRUPPE,
+			GREPREFERANSE,
+			VIGOREFERANSE,
+			MEDLEMSKAP
+	}
 }
 

@@ -6,16 +6,17 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Vurdering {
-    private String kommentar;
+	public enum Relasjonsnavn {
+			KARAKTER
+	}
 
-    public enum Relasjonsnavn {
-        KARAKTER
-    }
-}
+	private String kommentar;
+	}
 

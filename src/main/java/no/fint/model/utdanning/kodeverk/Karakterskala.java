@@ -2,16 +2,20 @@
 
 package no.fint.model.utdanning.kodeverk;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import java.util.List;
+
 import no.fint.model.felles.basisklasser.Begrep;
 
 @Data
-@EqualsAndHashCode(callSuper = false)
+@EqualsAndHashCode(callSuper=false)
 public class Karakterskala extends Begrep {
-    public enum Relasjonsnavn {
-        VIGOREFERANSE,
-        VERDI
-    }
+	public enum Relasjonsnavn {
+			VIGOREFERANSE,
+			VERDI
+	}
 }
 

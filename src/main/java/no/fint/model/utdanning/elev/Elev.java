@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import java.util.List;
+
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.felles.kompleksedatatyper.Kontaktinformasjon;
 
@@ -14,13 +16,14 @@ import no.fint.model.felles.kompleksedatatyper.Kontaktinformasjon;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Elev {
-    private Identifikator brukernavn;
-    private Identifikator elevnummer;
-    private Kontaktinformasjon kontaktinformasjon;
-    private Identifikator systemId;
-    public enum Relasjonsnavn {
-        PERSON,
-        ELEVFORHOLD
-    }
-}
+	public enum Relasjonsnavn {
+			PERSON,
+			ELEVFORHOLD
+	}
+
+	private Identifikator brukernavn;
+	private Identifikator elevnummer;
+	private Kontaktinformasjon kontaktinformasjon;
+	private Identifikator systemId;
+	}
 

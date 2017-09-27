@@ -2,20 +2,24 @@
 
 package no.fint.model.utdanning.timeplan;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import java.util.List;
+
 import no.fint.model.utdanning.basisklasser.Gruppe;
 
 @Data
-@EqualsAndHashCode(callSuper = false)
+@EqualsAndHashCode(callSuper=false)
 public class Fag extends Gruppe {
-    public enum Relasjonsnavn {
-        PROGRAMOMRADE,
-        UNDERVISNINGSGRUPPE,
-        EKSAMENSGRUPPE,
-        GREPREFERANSE,
-        VIGOREFERANSE,
-        MEDLEMSKAP
-    }
+	public enum Relasjonsnavn {
+			PROGRAMOMRADE,
+			UNDERVISNINGSGRUPPE,
+			EKSAMENSGRUPPE,
+			GREPREFERANSE,
+			VIGOREFERANSE,
+			MEDLEMSKAP
+	}
 }
 

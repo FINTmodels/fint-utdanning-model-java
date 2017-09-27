@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import java.util.List;
+
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.felles.kompleksedatatyper.Periode;
 
@@ -14,14 +16,15 @@ import no.fint.model.felles.kompleksedatatyper.Periode;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Time {
-    private String beskrivelse;
-    private String navn;
-    private Identifikator systemId;
-    private Periode tidsrom;
-    public enum Relasjonsnavn {
-        UNDERVISNINGSGRUPPE,
-        UNDERVISNINGSFORHOLD,
-        ROM
-    }
-}
+	public enum Relasjonsnavn {
+			UNDERVISNINGSGRUPPE,
+			UNDERVISNINGSFORHOLD,
+			ROM
+	}
+
+	private String beskrivelse;
+	private String navn;
+	private Identifikator systemId;
+	private Periode tidsrom;
+	}
 

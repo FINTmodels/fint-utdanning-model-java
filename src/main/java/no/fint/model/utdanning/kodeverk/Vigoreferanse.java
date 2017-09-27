@@ -5,11 +5,10 @@ package no.fint.model.utdanning.kodeverk;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
 @EqualsAndHashCode
-public class Vigoreferanse {
-}
+public class Vigoreferanse {}
 
