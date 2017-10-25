@@ -1,0 +1,47 @@
+{
+  "kontaktinformasjon" : {
+    "epostadresse" : "POuFI",
+    "mobiltelefonnummer" : "vTlVXHaBpvySc",
+    "nettsted" : "OxHwrtWiYeJYgLsDR",
+    "sip" : "nNacdY",
+    "telefonnummer" : "QyNqvfmOwBenzMfKqN"
+  },
+  "postadresse" : {
+    "adresselinje" : [ "xrWKJmXhD", "ZulQRZicDOzTYpLsMPlh", "NNSWoPaqFeOvEBRbTPoXIK", "MYtnUKHWJxXnfYyjMM", "BZURDEABHOoRVzFeokcpWvBW", "hTv", "wzaFBVXjmgYLupBvgnN", "znGJnJfevcjOMKqAFpyxSWljpSw", "UCyY", "gFBLlsyYX", "eYtnwF", "DOfmUPDREPiKJg", "gMSAAcipRnDiHFerZ", "KjWryyYYqXSDVPVIeEqXWRcgCLbBjDB", "pu", "wRdgNZaqeSsrnqurWYCVNcyVlOROPaBf", "EbKhMdOxfdbFJXVIcjWkNJzNf", "UWnviBZVcCnJwCb", "HtyGVuvtafezHcAJmPwFvEFaNZEQ", "Z", "ULkTxFyKEiGZd", "iTHInnfIcZXghMLIoXzidbCIPZBYg", "PjDbrTuwtBzJBWjREw", "OnRBZcJnUsQNrfzuSdbd", "mZMkIwfpdYKOkwpsSEWhcNG", "Pk", "wwpHanpTxc" ],
+    "postnummer" : "MIwGXRMFPYrTzoMCZ",
+    "poststed" : "ERcPkjEEYhUhJsMhpBrB"
+  },
+  "forretningsadresse" : {
+    "adresselinje" : [ "iFVM", "zoa", "QvQWuoXElrgPkMtPWglgkLHePUfhLEo", "SBOLwMaCQwVGsPhE", "CdnKwAlLuWPEs", "btPeKjKrbJMorahulBPzOVZvwzsIfChK", "psXKoImVeatmsQh", "GDbqCaffbBAmNsUyUoOZZ", "eSbBORVEiMmPNrgT", "fvPCbNQNQrllZmqQ", "ImXIG", "JT", "uxOFxLajeDDWrCFMwEuxeoyEjq", "GVkQatq", "ujuIwgmy", "EhjLZphZqtjVEaTecYmQZplOTB", "gdJAUMUDaYdYeRnIFUXfJVrG", "IQlCNTS", "NjzFnOwOvcwRfVMovzqKcljxmr", "hH", "oHpRUneFsYWKbIOOaEGEpzMg", "mbNQ", "yhyYcFYGElTZcvRdJ", "uDkoMP", "voYATZaTzwpjcRVnIfhFwWJvl", "nLeCpVKJH", "zknkoRauwgKwwYEfasDbeqEzKvt", "ezEuyqra", "jnataguzsuhwWYUmSkrlfMyxfWJ", "TdluW", "HYDFXNEuSHaByEGAUmpYioYVPqdmprQ", "TogFcMBCRFmhIhpNCUk", "etDbAXmDHRcEBThVBgn", "nhi", "GZsktTtozRIUAYKwuUN", "fnpNsXIyUTwUpt", "TBxszz", "NgbclIPmjcn", "FMGVRGRxeYcqTrJLazpUtq", "YgudPJdujKsoZUwv", "UnOkOJaMevHLnH", "NPHVJvNJCRoTdgwnedDoOgoM", "m", "kVBarUrDzgGOfd" ],
+    "postnummer" : "DFGSU",
+    "poststed" : "COs"
+  },
+  "organisasjonsnavn" : "xQ",
+  "organisasjonsnummer" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "kPPihUTqOWiFBPQpzQQi",
+      "slutt" : 1315317669999,
+      "start" : 1567610553495
+    },
+    "identifikatorverdi" : "RRID"
+  },
+  "domenenavn" : "raWrPJFuVgkNhHzdkitoOizP",
+  "juridiskNavn" : "RIYMLrFLDdvnpT",
+  "navn" : "pSpSABSjrVYA",
+  "skolenummer" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "sCWlLOqZoAdAf",
+      "slutt" : 1717551097740,
+      "start" : 1482378160371
+    },
+    "identifikatorverdi" : "rLOJRRTGJsLvgVugpcom"
+  },
+  "systemId" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "FinMKRRdEbGYBNPEpaddOXBnCHjiRFjL",
+      "slutt" : 1648115476786,
+      "start" : 1877198048021
+    },
+    "identifikatorverdi" : "XWAbOFWehdEQLHFMnUPpuWVesPPZwgpU"
+  }
+}

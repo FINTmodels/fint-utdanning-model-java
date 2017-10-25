@@ -1,0 +1,33 @@
+{
+  "brukernavn" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "XzVRIC",
+      "slutt" : 1370371390631,
+      "start" : 1574029110750
+    },
+    "identifikatorverdi" : "ECKyqbmiXlrbKZthaEQAPiFMU"
+  },
+  "elevnummer" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "wQAhKIoPagvLMQRU",
+      "slutt" : 1792433766800,
+      "start" : 1539123988675
+    },
+    "identifikatorverdi" : "vJ"
+  },
+  "kontaktinformasjon" : {
+    "epostadresse" : "xgBejhXGRrYfnKBulKRPxKXsSiZ",
+    "mobiltelefonnummer" : "MheXBGdqTjb",
+    "nettsted" : "WJZFkmYXhtCAsKI",
+    "sip" : "XViCqVTkbqUNMXHrXIzNniifLCVktZ",
+    "telefonnummer" : "wnEoWrfVsvpaWDhBmNmF"
+  },
+  "systemId" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "iJBFWosPzPvpfgeAUdxcwipZ",
+      "slutt" : 1652108295528,
+      "start" : 1810283469997
+    },
+    "identifikatorverdi" : "TLUjlnkaozhWrWgUhlZzDUhFAxpc"
+  }
+}
