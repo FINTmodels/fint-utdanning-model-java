@@ -1,13 +1,12 @@
-// Built from tag v2.0.10
+// Built from tag v2.2.0
 
 package no.fint.model.utdanning.utdanningsprogram;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
 import java.util.List;
+import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.felles.basisklasser.Enhet;
@@ -15,7 +14,7 @@ import no.fint.model.felles.basisklasser.Enhet;
 @Data
 @EqualsAndHashCode(callSuper=true)
 @ToString(callSuper=true)
-public class Skole extends Enhet {
+public class Skole extends Enhet implements FintMainObject {
 	public enum Relasjonsnavn {
 			ORGANISASJON,
 			FAG,
@@ -30,4 +29,3 @@ public class Skole extends Enhet {
 	private Identifikator skolenummer;
 	private Identifikator systemId;
 	}
-
