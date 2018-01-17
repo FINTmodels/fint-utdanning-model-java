@@ -1,10 +1,12 @@
-// Built from tag v2.2.0
+// Built from tag v2.4.0-rc-2
 
 package no.fint.model.utdanning.utdanningsprogram;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
@@ -12,20 +14,25 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.felles.basisklasser.Enhet;
 
 @Data
+@NoArgsConstructor
 @EqualsAndHashCode(callSuper=true)
 @ToString(callSuper=true)
 public class Skole extends Enhet implements FintMainObject {
-	public enum Relasjonsnavn {
-			ORGANISASJON,
-			FAG,
-			SKOLEEIERTYPE,
-			VIGOREFERANSE,
-			UTDANNINGSPROGRAM
-	}
+    public enum Relasjonsnavn {
+            ORGANISASJON,
+            FAG,
+            SKOLEEIERTYPE,
+            VIGOREFERANSE,
+            UTDANNINGSPROGRAM,
+            UTDANNINGSFORHOLD
+    }
 
-	private String domenenavn;
-	private String juridiskNavn;
-	private String navn;
-	private Identifikator skolenummer;
-	private Identifikator systemId;
-	}
+    private String domenenavn;
+    private String juridiskNavn;
+    @NonNull
+    private String navn;
+    @NonNull
+    private Identifikator skolenummer;
+    @NonNull
+    private Identifikator systemId;
+}

@@ -1,17 +1,18 @@
 {
   "gyldighetsperiode" : {
-    "beskrivelse" : "KY",
-    "slutt" : 1289344890504,
-    "start" : 1515271784769
+    "beskrivelse" : "Qen",
+    "slutt" : 1305648852396,
+    "start" : 1872321450914
   },
-  "kode" : "fyIMmGf",
-  "navn" : "ndmNDHQtqbdfa",
+  "kode" : "xWGnmrobdxFgwyJjDhCTfjZAYxgzLftS",
+  "navn" : "AnzcIyLSLQiZXgmQZlmPLgUuGESHiIq",
+  "passiv" : false,
   "systemId" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "xoiPpZvtXwWSiTKLXGHLViTtGyi",
-      "slutt" : 1505364298548,
-      "start" : 1652931003787
+      "beskrivelse" : "nxdXIfqoIsZk",
+      "slutt" : 1353445105430,
+      "start" : 1742136981729
     },
-    "identifikatorverdi" : "YEUuVuvTpQBGE"
+    "identifikatorverdi" : "uTcWK"
   }
 }

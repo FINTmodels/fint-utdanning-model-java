@@ -1,17 +1,17 @@
 {
-  "beskrivelse" : "QHQKHULvupCNAwMpOQDSRQG",
-  "navn" : "dKzCkRKuURtHCILYZVgjiIdVSqzhJt",
+  "beskrivelse" : "GpcGnDrGFyYGhpSSkPUNPlnzVsoIDZs",
+  "navn" : "QNzc",
   "systemId" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "hVgNswQrdsrweMIuLqCmzsXBvAzWeWcd",
-      "slutt" : 1703479099326,
-      "start" : 1881267858314
+      "beskrivelse" : "MzrySrNxFuaRf",
+      "slutt" : 1867265328519,
+      "start" : 1504370489287
     },
-    "identifikatorverdi" : "Yykmfs"
+    "identifikatorverdi" : "KiWoKWfRWccWniZS"
   },
   "tidsrom" : {
-    "beskrivelse" : "iIytvSdHh",
-    "slutt" : 1428108293478,
-    "start" : 1478988190209
+    "beskrivelse" : "TImFaJvmwyB",
+    "slutt" : 1465617278456,
+    "start" : 1586809593999
   }
 }

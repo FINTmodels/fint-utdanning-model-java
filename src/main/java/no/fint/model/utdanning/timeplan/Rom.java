@@ -1,23 +1,27 @@
-// Built from tag v2.2.0
+// Built from tag v2.4.0-rc-2
 
 package no.fint.model.utdanning.timeplan;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
+@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class Rom implements FintMainObject {
-	public enum Relasjonsnavn {
-			TIME
-	}
+    public enum Relasjonsnavn {
+            TIME
+    }
 
-	private String navn;
-	private Identifikator systemId;
-	}
+    private String navn;
+    @NonNull
+    private Identifikator systemId;
+}
