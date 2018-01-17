@@ -1,6 +1,6 @@
 plugins {
-    id 'com.jfrog.bintray' version '1.7.3'
-    id 'com.github.ben-manes.versions' version '0.15.0'
+    id 'com.jfrog.bintray' version '1.8.0'
+    id 'com.github.ben-manes.versions' version '0.17.0'
 }
 
 apply plugin: 'java'
@@ -11,7 +11,6 @@ sourceCompatibility = 1.8
 
 jar {
     baseName = 'fint-utdanning-model-java'
-    version = '2.2.0'
 }
 
 repositories {
@@ -22,9 +21,9 @@ repositories {
     jcenter()
 }
 
-apply from: 'https://raw.githubusercontent.com/FINTlibs/fint-buildscripts/v1.0.14/dependencies.gradle'
+apply from: 'https://raw.githubusercontent.com/FINTlibs/fint-buildscripts/v1.1.0/dependencies.gradle'
 dependencies {
-    compile('no.fint:fint-felles-model-java:2.2.0')
+    compile("no.fint:fint-felles-model-java:${apiVersion}")
 
     compileOnly("org.projectlombok:lombok:${lombokVersion}")
 
@@ -42,5 +41,5 @@ test {
 }
 
 if (project.hasProperty('bintrayUser') && project.hasProperty('bintrayKey')) {
-    apply from: 'https://raw.githubusercontent.com/FINTlibs/fint-buildscripts/v1.0.14/bintray.gradle'
+    apply from: 'https://raw.githubusercontent.com/FINTlibs/fint-buildscripts/v1.1.0/bintray.gradle'
 }
