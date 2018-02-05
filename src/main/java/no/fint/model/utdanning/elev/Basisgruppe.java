@@ -1,4 +1,4 @@
-// Built from tag v2.4.0-rc-2
+// Built from tag v2.4.0-rc-4
 
 package no.fint.model.utdanning.elev;
 
@@ -20,8 +20,8 @@ public class Basisgruppe extends Gruppe implements FintMainObject {
     public enum Relasjonsnavn {
             TRINN,
             KONTAKTLARERGRUPPE,
-            GREPKODE,
-            VIGOKODE,
+            GREPREFERANSE,
+            VIGOREFERANSE,
             MEDLEMSKAP
     }
 

@@ -1,4 +1,4 @@
-// Built from tag v2.4.0-rc-2
+// Built from tag v2.4.0-rc-4
 
 package no.fint.model.utdanning.elev;
 
@@ -18,7 +18,7 @@ import no.fint.model.utdanning.basisklasser.Utdanningsforhold;
 @ToString(callSuper=true)
 public class Elevforhold extends Utdanningsforhold implements FintMainObject {
     public enum Relasjonsnavn {
-            ELEVRESSURS,
+            ELEV,
             KATEGORI,
             SKOLE,
             MEDLEMSKAP

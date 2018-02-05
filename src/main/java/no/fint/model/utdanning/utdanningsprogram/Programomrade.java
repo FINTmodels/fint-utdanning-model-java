@@ -1,4 +1,4 @@
-// Built from tag v2.4.0-rc-2
+// Built from tag v2.4.0-rc-4
 
 package no.fint.model.utdanning.utdanningsprogram;
 
@@ -21,8 +21,8 @@ public class Programomrade extends Gruppe implements FintMainObject {
             UTDANNINGSPROGRAM,
             FAG,
             TRINN,
-            GREPKODE,
-            VIGOKODE,
+            GREPREFERANSE,
+            VIGOREFERANSE,
             MEDLEMSKAP
     }
 

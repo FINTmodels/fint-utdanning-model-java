@@ -1,4 +1,4 @@
-// Built from tag v2.4.0-rc-2
+// Built from tag v2.4.0-rc-4
 
 package no.fint.model.utdanning.timeplan;
 
@@ -20,8 +20,8 @@ public class Undervisningsgruppe extends Gruppe implements FintMainObject {
     public enum Relasjonsnavn {
             FAG,
             TIME,
-            GREPKODE,
-            VIGOKODE,
+            GREPREFERANSE,
+            VIGOREFERANSE,
             MEDLEMSKAP
     }
 
