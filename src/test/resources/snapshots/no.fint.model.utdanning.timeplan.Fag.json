@@ -1,189 +1,353 @@
 {
-  "beskrivelse" : "jPuqxqgiVniIiAaCimavGQzrzHILfz",
-  "navn" : "aXEYMGgcisTkCUFzjhUaQDa",
+  "beskrivelse" : "kCueCiwSknqrWdE",
+  "navn" : "kFAkizfdReXSznGROTKUmSwzBEtLu",
   "periode" : [ {
-    "beskrivelse" : "qxv",
-    "slutt" : 1842109951077,
-    "start" : 1310383141638
+    "beskrivelse" : "tLTxJT",
+    "slutt" : 1539781616437,
+    "start" : 1369067529366
   }, {
-    "beskrivelse" : "TobgjGuFrUtAfeQs",
-    "slutt" : 1852323976865,
-    "start" : 1813072337330
+    "beskrivelse" : "dMBwDUZJdQDP",
+    "slutt" : 1418946114702,
+    "start" : 1640555828592
   }, {
-    "beskrivelse" : "HiZTzSWAJHEUlpWsZCoyDXNJdrkYPn",
-    "slutt" : 1549700086542,
-    "start" : 1461530223164
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
   }, {
-    "beskrivelse" : "IQzHUlqRPGLc",
-    "slutt" : 1671472621652,
-    "start" : 1809461398121
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
   }, {
-    "beskrivelse" : "btKxtzwvVhqapjQQtbPIVSCQCLGS",
-    "slutt" : 1313800621001,
-    "start" : 1854734639603
+    "beskrivelse" : "ahdjBDWlUZkxCXujGole",
+    "slutt" : 1522412136117,
+    "start" : 1389979214393
   }, {
-    "beskrivelse" : "uhNbPWzrIKsuVqBQkD",
-    "slutt" : 1572730530986,
-    "start" : 1443101944364
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
   }, {
-    "beskrivelse" : "pVdnUEqbdtgAQmX",
-    "slutt" : 1563437405709,
-    "start" : 1341854539933
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
   }, {
-    "beskrivelse" : "rDjkzpWNRmOlwYNwRRNTiizQeK",
-    "slutt" : 1846079367048,
-    "start" : 1692919528590
+    "beskrivelse" : "pXxUVpuWSlNAAiOI",
+    "slutt" : 1872502338608,
+    "start" : 1412439774273
   }, {
-    "beskrivelse" : "OJwsQVFOsRl",
-    "slutt" : 1860387942749,
-    "start" : 1872669654296
+    "beskrivelse" : "lCCNYddlVgtwdkfkzPL",
+    "slutt" : 1637811241884,
+    "start" : 1885092928171
   }, {
-    "beskrivelse" : "TzeiEhTYCIfkjwbwILwtLQd",
-    "slutt" : 1448719377311,
-    "start" : 1450475691172
+    "beskrivelse" : "vi",
+    "slutt" : 1288995453151,
+    "start" : 1847383128334
   }, {
-    "beskrivelse" : "qxv",
-    "slutt" : 1842109951077,
-    "start" : 1310383141638
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
   }, {
-    "beskrivelse" : "uhNbPWzrIKsuVqBQkD",
-    "slutt" : 1572730530986,
-    "start" : 1443101944364
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
   }, {
-    "beskrivelse" : "OJwsQVFOsRl",
-    "slutt" : 1860387942749,
-    "start" : 1872669654296
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
   }, {
-    "beskrivelse" : "qxv",
-    "slutt" : 1842109951077,
-    "start" : 1310383141638
+    "beskrivelse" : "lCCNYddlVgtwdkfkzPL",
+    "slutt" : 1637811241884,
+    "start" : 1885092928171
   }, {
-    "beskrivelse" : "btKxtzwvVhqapjQQtbPIVSCQCLGS",
-    "slutt" : 1313800621001,
-    "start" : 1854734639603
+    "beskrivelse" : "dMBwDUZJdQDP",
+    "slutt" : 1418946114702,
+    "start" : 1640555828592
   }, {
-    "beskrivelse" : "uhNbPWzrIKsuVqBQkD",
-    "slutt" : 1572730530986,
-    "start" : 1443101944364
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
   }, {
-    "beskrivelse" : "HiZTzSWAJHEUlpWsZCoyDXNJdrkYPn",
-    "slutt" : 1549700086542,
-    "start" : 1461530223164
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
   }, {
-    "beskrivelse" : "OJwsQVFOsRl",
-    "slutt" : 1860387942749,
-    "start" : 1872669654296
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
   }, {
-    "beskrivelse" : "rDjkzpWNRmOlwYNwRRNTiizQeK",
-    "slutt" : 1846079367048,
-    "start" : 1692919528590
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
   }, {
-    "beskrivelse" : "pVdnUEqbdtgAQmX",
-    "slutt" : 1563437405709,
-    "start" : 1341854539933
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
   }, {
-    "beskrivelse" : "TzeiEhTYCIfkjwbwILwtLQd",
-    "slutt" : 1448719377311,
-    "start" : 1450475691172
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
   }, {
-    "beskrivelse" : "IQzHUlqRPGLc",
-    "slutt" : 1671472621652,
-    "start" : 1809461398121
+    "beskrivelse" : "vi",
+    "slutt" : 1288995453151,
+    "start" : 1847383128334
   }, {
-    "beskrivelse" : "OJwsQVFOsRl",
-    "slutt" : 1860387942749,
-    "start" : 1872669654296
+    "beskrivelse" : "tLTxJT",
+    "slutt" : 1539781616437,
+    "start" : 1369067529366
   }, {
-    "beskrivelse" : "TzeiEhTYCIfkjwbwILwtLQd",
-    "slutt" : 1448719377311,
-    "start" : 1450475691172
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
   }, {
-    "beskrivelse" : "IQzHUlqRPGLc",
-    "slutt" : 1671472621652,
-    "start" : 1809461398121
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
   }, {
-    "beskrivelse" : "btKxtzwvVhqapjQQtbPIVSCQCLGS",
-    "slutt" : 1313800621001,
-    "start" : 1854734639603
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
   }, {
-    "beskrivelse" : "pVdnUEqbdtgAQmX",
-    "slutt" : 1563437405709,
-    "start" : 1341854539933
+    "beskrivelse" : "ahdjBDWlUZkxCXujGole",
+    "slutt" : 1522412136117,
+    "start" : 1389979214393
   }, {
-    "beskrivelse" : "pVdnUEqbdtgAQmX",
-    "slutt" : 1563437405709,
-    "start" : 1341854539933
+    "beskrivelse" : "pXxUVpuWSlNAAiOI",
+    "slutt" : 1872502338608,
+    "start" : 1412439774273
   }, {
-    "beskrivelse" : "qxv",
-    "slutt" : 1842109951077,
-    "start" : 1310383141638
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
   }, {
-    "beskrivelse" : "HiZTzSWAJHEUlpWsZCoyDXNJdrkYPn",
-    "slutt" : 1549700086542,
-    "start" : 1461530223164
+    "beskrivelse" : "dMBwDUZJdQDP",
+    "slutt" : 1418946114702,
+    "start" : 1640555828592
   }, {
-    "beskrivelse" : "qxv",
-    "slutt" : 1842109951077,
-    "start" : 1310383141638
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
   }, {
-    "beskrivelse" : "uhNbPWzrIKsuVqBQkD",
-    "slutt" : 1572730530986,
-    "start" : 1443101944364
+    "beskrivelse" : "lCCNYddlVgtwdkfkzPL",
+    "slutt" : 1637811241884,
+    "start" : 1885092928171
   }, {
-    "beskrivelse" : "TzeiEhTYCIfkjwbwILwtLQd",
-    "slutt" : 1448719377311,
-    "start" : 1450475691172
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
   }, {
-    "beskrivelse" : "uhNbPWzrIKsuVqBQkD",
-    "slutt" : 1572730530986,
-    "start" : 1443101944364
+    "beskrivelse" : "dMBwDUZJdQDP",
+    "slutt" : 1418946114702,
+    "start" : 1640555828592
   }, {
-    "beskrivelse" : "pVdnUEqbdtgAQmX",
-    "slutt" : 1563437405709,
-    "start" : 1341854539933
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
   }, {
-    "beskrivelse" : "TzeiEhTYCIfkjwbwILwtLQd",
-    "slutt" : 1448719377311,
-    "start" : 1450475691172
+    "beskrivelse" : "lCCNYddlVgtwdkfkzPL",
+    "slutt" : 1637811241884,
+    "start" : 1885092928171
   }, {
-    "beskrivelse" : "TobgjGuFrUtAfeQs",
-    "slutt" : 1852323976865,
-    "start" : 1813072337330
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
   }, {
-    "beskrivelse" : "btKxtzwvVhqapjQQtbPIVSCQCLGS",
-    "slutt" : 1313800621001,
-    "start" : 1854734639603
+    "beskrivelse" : "vi",
+    "slutt" : 1288995453151,
+    "start" : 1847383128334
   }, {
-    "beskrivelse" : "IQzHUlqRPGLc",
-    "slutt" : 1671472621652,
-    "start" : 1809461398121
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
   }, {
-    "beskrivelse" : "TobgjGuFrUtAfeQs",
-    "slutt" : 1852323976865,
-    "start" : 1813072337330
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
   }, {
-    "beskrivelse" : "TzeiEhTYCIfkjwbwILwtLQd",
-    "slutt" : 1448719377311,
-    "start" : 1450475691172
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
   }, {
-    "beskrivelse" : "TobgjGuFrUtAfeQs",
-    "slutt" : 1852323976865,
-    "start" : 1813072337330
+    "beskrivelse" : "ahdjBDWlUZkxCXujGole",
+    "slutt" : 1522412136117,
+    "start" : 1389979214393
   }, {
-    "beskrivelse" : "btKxtzwvVhqapjQQtbPIVSCQCLGS",
-    "slutt" : 1313800621001,
-    "start" : 1854734639603
+    "beskrivelse" : "pXxUVpuWSlNAAiOI",
+    "slutt" : 1872502338608,
+    "start" : 1412439774273
   }, {
-    "beskrivelse" : "btKxtzwvVhqapjQQtbPIVSCQCLGS",
-    "slutt" : 1313800621001,
-    "start" : 1854734639603
+    "beskrivelse" : "pXxUVpuWSlNAAiOI",
+    "slutt" : 1872502338608,
+    "start" : 1412439774273
+  }, {
+    "beskrivelse" : "vi",
+    "slutt" : 1288995453151,
+    "start" : 1847383128334
+  }, {
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
+  }, {
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
+  }, {
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
+  }, {
+    "beskrivelse" : "tLTxJT",
+    "slutt" : 1539781616437,
+    "start" : 1369067529366
+  }, {
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
+  }, {
+    "beskrivelse" : "ahdjBDWlUZkxCXujGole",
+    "slutt" : 1522412136117,
+    "start" : 1389979214393
+  }, {
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
+  }, {
+    "beskrivelse" : "tLTxJT",
+    "slutt" : 1539781616437,
+    "start" : 1369067529366
+  }, {
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
+  }, {
+    "beskrivelse" : "lCCNYddlVgtwdkfkzPL",
+    "slutt" : 1637811241884,
+    "start" : 1885092928171
+  }, {
+    "beskrivelse" : "ahdjBDWlUZkxCXujGole",
+    "slutt" : 1522412136117,
+    "start" : 1389979214393
+  }, {
+    "beskrivelse" : "dMBwDUZJdQDP",
+    "slutt" : 1418946114702,
+    "start" : 1640555828592
+  }, {
+    "beskrivelse" : "tLTxJT",
+    "slutt" : 1539781616437,
+    "start" : 1369067529366
+  }, {
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
+  }, {
+    "beskrivelse" : "ahdjBDWlUZkxCXujGole",
+    "slutt" : 1522412136117,
+    "start" : 1389979214393
+  }, {
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
+  }, {
+    "beskrivelse" : "ahdjBDWlUZkxCXujGole",
+    "slutt" : 1522412136117,
+    "start" : 1389979214393
+  }, {
+    "beskrivelse" : "ahdjBDWlUZkxCXujGole",
+    "slutt" : 1522412136117,
+    "start" : 1389979214393
+  }, {
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
+  }, {
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
+  }, {
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
+  }, {
+    "beskrivelse" : "pXxUVpuWSlNAAiOI",
+    "slutt" : 1872502338608,
+    "start" : 1412439774273
+  }, {
+    "beskrivelse" : "pXxUVpuWSlNAAiOI",
+    "slutt" : 1872502338608,
+    "start" : 1412439774273
+  }, {
+    "beskrivelse" : "pXxUVpuWSlNAAiOI",
+    "slutt" : 1872502338608,
+    "start" : 1412439774273
+  }, {
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
+  }, {
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
+  }, {
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
+  }, {
+    "beskrivelse" : "pXxUVpuWSlNAAiOI",
+    "slutt" : 1872502338608,
+    "start" : 1412439774273
+  }, {
+    "beskrivelse" : "dMBwDUZJdQDP",
+    "slutt" : 1418946114702,
+    "start" : 1640555828592
+  }, {
+    "beskrivelse" : "ahdjBDWlUZkxCXujGole",
+    "slutt" : 1522412136117,
+    "start" : 1389979214393
+  }, {
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
+  }, {
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
+  }, {
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
+  }, {
+    "beskrivelse" : "kJEGjCnRXQdGLVeZAfy",
+    "slutt" : 1339816231703,
+    "start" : 1277053259907
+  }, {
+    "beskrivelse" : "gNQ",
+    "slutt" : 1865928926337,
+    "start" : 1487024555617
+  }, {
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
+  }, {
+    "beskrivelse" : "vi",
+    "slutt" : 1288995453151,
+    "start" : 1847383128334
+  }, {
+    "beskrivelse" : "gANslSLc",
+    "slutt" : 1303399280656,
+    "start" : 1621169392419
+  }, {
+    "beskrivelse" : "lCCNYddlVgtwdkfkzPL",
+    "slutt" : 1637811241884,
+    "start" : 1885092928171
+  }, {
+    "beskrivelse" : "NOpmjBkTFBQspHGPNCAoZHmNPCpxg",
+    "slutt" : 1419191360529,
+    "start" : 1885950914082
   } ],
   "systemId" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "OJwsQVFOsRl",
-      "slutt" : 1860387942749,
-      "start" : 1872669654296
+      "beskrivelse" : "gANslSLc",
+      "slutt" : 1303399280656,
+      "start" : 1621169392419
     },
-    "identifikatorverdi" : "EelifMaWHLSFHECfIIxqd"
+    "identifikatorverdi" : "NHBL"
   }
 }

@@ -1,33 +1,33 @@
 {
   "brukernavn" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "bIxgEYmTQhEmbpOIVjiSSXw",
-      "slutt" : 1697259934185,
-      "start" : 1572785409522
+      "beskrivelse" : "VJXGezlWQHaaYEfjf",
+      "slutt" : 1579803156536,
+      "start" : 1544541018764
     },
-    "identifikatorverdi" : "VvlOH"
+    "identifikatorverdi" : "YPmQzoMFMzKD"
   },
   "elevnummer" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "VuNpiAjLNVWIAnxe",
-      "slutt" : 1414403502265,
-      "start" : 1749288592769
+      "beskrivelse" : "MSlaacZQaKEgLSy",
+      "slutt" : 1845413903869,
+      "start" : 1804739016306
     },
-    "identifikatorverdi" : "Rniumvlttr"
+    "identifikatorverdi" : "WTkQKpECqytvfNLBSeZtP"
   },
   "kontaktinformasjon" : {
-    "epostadresse" : "LOAynjmn",
-    "mobiltelefonnummer" : "eIIgRvLXuyXdvILeGuI",
-    "nettsted" : "oaTCUvqSDbQXmhajQvoFxzGlx",
-    "sip" : "qcnTWJqcukWoca",
-    "telefonnummer" : "hGT"
+    "epostadresse" : "aRIDyljgGoNuxtYXKYUaxicgnQGYpJ",
+    "mobiltelefonnummer" : "F",
+    "nettsted" : "VRhNHQNAKoQojMFGevQeGCXxsTpo",
+    "sip" : "erSSWbeiMKoyeiXILKUbLmn",
+    "telefonnummer" : "OkfpBsRPBbZMTIvBVBip"
   },
   "systemId" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "gDNKWooaSP",
-      "slutt" : 1306374226999,
-      "start" : 1865965860169
+      "beskrivelse" : "lrAFHcKeq",
+      "slutt" : 1653094319508,
+      "start" : 1362715146597
     },
-    "identifikatorverdi" : "AAzadrpdlZGHlEEEqZtVIFIPvxGffUh"
+    "identifikatorverdi" : "DBiKam"
   }
 }

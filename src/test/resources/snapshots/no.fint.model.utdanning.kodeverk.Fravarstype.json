@@ -1,18 +1,18 @@
 {
   "gyldighetsperiode" : {
-    "beskrivelse" : "NFBCxsAqnUQtE",
-    "slutt" : 1511644081693,
-    "start" : 1360694382323
+    "beskrivelse" : "KSiLxQRBOzqMsplXYnWJtiR",
+    "slutt" : 1709147293535,
+    "start" : 1674992199340
   },
-  "kode" : "HFPRqNprlrVszBPgTFotXiqpWcpJFpg",
-  "navn" : "EVEla",
-  "passiv" : false,
+  "kode" : "YliwairfQ",
+  "navn" : "NBfPSlvYKhvzvWarGIbKT",
+  "passiv" : true,
   "systemId" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "xCErIeKIDLrUNPlcXQMhbswQIRyMdg",
-      "slutt" : 1567843931031,
-      "start" : 1541486126367
+      "beskrivelse" : "IItSbAoVlIGHaZSHkMfevOvTKL",
+      "slutt" : 1852732173642,
+      "start" : 1467496594303
     },
-    "identifikatorverdi" : "oYYpLYhZmukYEujW"
+    "identifikatorverdi" : "EBaTdAmxjUpwbMVLjfdcWBGIlwnzwe"
   }
 }
