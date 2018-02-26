@@ -1,4 +1,4 @@
-// Built from tag v2.6.0-beta-1
+// Built from tag v0.99.0
 
 package no.fint.model.utdanning.elev;
 
@@ -18,11 +18,11 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @ToString
 public class Medlemskap implements FintMainObject {
     public enum Relasjonsnavn {
-            MEDLEM,
-            FORTLOPENDEKARATER,
-            GRUPPE,
-            ENDELIGKARAKTER,
-            FRAVAR
+            FRAVAR,
+            FORTLOPENDEVURDERING,
+            ENDELIGVURDERING,
+            DELTAKER,
+            GRUPPE
     }
 
     @NonNull

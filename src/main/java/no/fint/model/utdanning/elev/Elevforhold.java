@@ -1,4 +1,4 @@
-// Built from tag v2.6.0-beta-1
+// Built from tag v0.99.0
 
 package no.fint.model.utdanning.elev;
 
@@ -20,7 +20,6 @@ public class Elevforhold extends Utdanningsforhold implements FintMainObject {
     public enum Relasjonsnavn {
             ELEV,
             KATEGORI,
-            SKOLE,
             MEDLEMSKAP
     }
 
