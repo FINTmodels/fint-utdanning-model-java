@@ -1,4 +1,4 @@
-// Built from tag v0.99.0
+// Built from tag v0.99.9
 
 package no.fint.model.utdanning.timeplan;
 
@@ -19,6 +19,7 @@ import no.fint.model.utdanning.basisklasser.Gruppe;
 public class Fag extends Gruppe implements FintMainObject {
     public enum Relasjonsnavn {
             PROGRAMOMRADE,
+            SKOLE,
             UNDERVISNINGSGRUPPE,
             EKSAMENSGRUPPE,
             GREPREFERANSE,

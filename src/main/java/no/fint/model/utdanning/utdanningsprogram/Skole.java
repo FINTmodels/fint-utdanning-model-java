@@ -1,4 +1,4 @@
-// Built from tag v0.99.0
+// Built from tag v0.99.9
 
 package no.fint.model.utdanning.utdanningsprogram;
 
@@ -23,7 +23,8 @@ public class Skole extends Enhet implements FintMainObject {
             FAG,
             SKOLEEIERTYPE,
             VIGOREFERANSE,
-            UTDANNINGSPROGRAM
+            UTDANNINGSPROGRAM,
+            UTDANNINGSFORHOLD
     }
 
     private String domenenavn;

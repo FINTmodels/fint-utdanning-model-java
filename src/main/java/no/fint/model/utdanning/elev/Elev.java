@@ -1,4 +1,4 @@
-// Built from tag v0.99.0
+// Built from tag v0.99.9
 
 package no.fint.model.utdanning.elev;
 
@@ -23,7 +23,6 @@ public class Elev implements FintMainObject {
             ELEVFORHOLD
     }
 
-    @NonNull
     private Identifikator brukernavn;
     @NonNull
     private Identifikator elevnummer;

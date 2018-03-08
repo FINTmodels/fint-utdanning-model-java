@@ -1,4 +1,4 @@
-// Built from tag v0.99.0
+// Built from tag v0.99.9
 
 package no.fint.model.utdanning.timeplan;
 
@@ -21,6 +21,8 @@ public class Rom implements FintMainObject {
             TIME
     }
 
+    @NonNull
+    private Integer kapasitet;
     private String navn;
     @NonNull
     private Identifikator systemId;
