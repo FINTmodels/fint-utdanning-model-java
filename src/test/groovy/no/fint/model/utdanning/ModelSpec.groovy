@@ -2,6 +2,7 @@ package no.fint.model.utdanning
 
 import no.fint.model.test.utils.JsonSnapshots
 import spock.lang.Requires
+import spock.lang.Ignore
 import spock.lang.Specification
 
 class ModelSpec extends Specification {
@@ -17,6 +18,7 @@ class ModelSpec extends Specification {
         jsonSnapshots.create()
     }
 
+    @Ignore
     def "Matches snapshots"() {
         expect:
         jsonSnapshots.matchesSnapshots()
