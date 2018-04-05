@@ -1,4 +1,4 @@
-// Built from tag v2.6.0
+// Built from tag v2.7.0
 
 package no.fint.model.utdanning.elev;
 
@@ -26,6 +26,7 @@ public class Elev implements FintMainObject {
     private Identifikator brukernavn;
     @NonNull
     private Identifikator elevnummer;
+    private Identifikator feidenavn;
     private Kontaktinformasjon kontaktinformasjon;
     private Identifikator systemId;
 }
