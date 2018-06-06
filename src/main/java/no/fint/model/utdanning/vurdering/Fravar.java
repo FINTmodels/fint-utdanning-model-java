@@ -1,6 +1,6 @@
-// Built from tag v2.8.0
+// Built from tag v3.0.0-rc-1
 
-package no.fint.model.utdanning.kompleksedatatyper;
+package no.fint.model.utdanning.vurdering;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,12 +11,13 @@ import java.util.List;
 import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Periode;
+import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class Fravar implements FintComplexDatatypeObject {
+public class Fravar implements FintMainObject {
     public enum Relasjonsnavn {
             FRAVARSTYPE
     }
@@ -29,4 +30,6 @@ public class Fravar implements FintComplexDatatypeObject {
     private Periode gjelderPeriode;
     @NonNull
     private String kommentar;
+    @NonNull
+    private Identifikator systemId;
 }
