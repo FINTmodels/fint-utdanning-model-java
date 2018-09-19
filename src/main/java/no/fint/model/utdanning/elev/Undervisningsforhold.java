@@ -1,4 +1,4 @@
-// Built from tag v3.0.0
+// Built from tag v3.1.0-rc-1
 
 package no.fint.model.utdanning.elev;
 
@@ -19,9 +19,13 @@ import no.fint.model.utdanning.basisklasser.Utdanningsforhold;
 public class Undervisningsforhold extends Utdanningsforhold implements FintMainObject {
     public enum Relasjonsnavn {
             ARBEIDSFORHOLD,
+            BASISGRUPPE,
+            KONTAKTLARERGRUPPE,
+            UNDERVISNINGSGRUPPE,
+            EKSAMENSGRUPPE,
             TIME,
-            SKOLERESSURS,
             SKOLE,
+            SKOLERESSURS,
             MEDLEMSKAP
     }
 

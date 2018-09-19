@@ -1,4 +1,4 @@
-// Built from tag v3.0.0
+// Built from tag v3.1.0-rc-1
 
 package no.fint.model.utdanning.vurdering;
 
@@ -18,9 +18,14 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @ToString
 public class Vurdering implements FintMainObject {
     public enum Relasjonsnavn {
+            ELEVFORHOLD,
+            UNDERVISNINGSGRUPPE,
+            EKSAMENSGRUPPE,
             KARAKTER
     }
 
+    @NonNull
+    private Boolean endelig;
     @NonNull
     private String kommentar;
     @NonNull

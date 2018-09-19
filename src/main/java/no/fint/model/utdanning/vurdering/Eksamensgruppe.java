@@ -1,4 +1,4 @@
-// Built from tag v3.0.0
+// Built from tag v3.1.0-rc-1
 
 package no.fint.model.utdanning.vurdering;
 
@@ -19,6 +19,9 @@ import no.fint.model.utdanning.basisklasser.Gruppe;
 public class Eksamensgruppe extends Gruppe implements FintMainObject {
     public enum Relasjonsnavn {
             FAG,
+            SKOLE,
+            ELEVFORHOLD,
+            UNDERVISNINGSFORHOLD,
             GREPREFERANSE,
             VIGOREFERANSE,
             MEDLEMSKAP
