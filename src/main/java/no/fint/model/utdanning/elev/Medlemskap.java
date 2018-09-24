@@ -1,4 +1,4 @@
-// Built from tag v3.1.0-rc-1
+// Built from tag v3.1.0
 
 package no.fint.model.utdanning.elev;
 
@@ -8,14 +8,14 @@ import lombok.EqualsAndHashCode;
 import lombok.ToString;
 import lombok.NonNull;
 import java.util.List;
-import no.fint.model.*;
-
+import no.fint.model.FintMainObject;
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
+@Deprecated
 public class Medlemskap implements FintMainObject {
     public enum Relasjonsnavn {
             MEDLEM,
@@ -25,6 +25,7 @@ public class Medlemskap implements FintMainObject {
             FRAVAR
     }
 
+    @Deprecated
     @NonNull
     private Identifikator systemId;
 }
