@@ -1,4 +1,4 @@
-// Built from tag v3.1.0
+// Built from tag v3.2.0-rc-1
 
 package no.fint.model.utdanning.utdanningsprogram;
 
@@ -18,6 +18,7 @@ import no.fint.model.utdanning.basisklasser.Gruppe;
 public class Programomrade extends Gruppe implements FintMainObject {
     public enum Relasjonsnavn {
             UTDANNINGSPROGRAM,
+            ELEVFORHOLD,
             FAG,
             TRINN,
             GREPREFERANSE,
