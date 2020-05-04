@@ -1,4 +1,4 @@
-// Built from tag v3.4.0
+// Built from tag v3.5.0-rc-1
 
 package no.fint.model.utdanning.elev;
 
@@ -9,6 +9,7 @@ import lombok.ToString;
 import lombok.NonNull;
 import java.util.List;
 import no.fint.model.FintMainObject;
+import no.fint.model.felles.kompleksedatatyper.Periode;
 import no.fint.model.utdanning.basisklasser.Utdanningsforhold;
 
 @Data
@@ -17,17 +18,24 @@ import no.fint.model.utdanning.basisklasser.Utdanningsforhold;
 @ToString(callSuper=true)
 public class Elevforhold extends Utdanningsforhold implements FintMainObject {
     public enum Relasjonsnavn {
-            BASISGRUPPE,
             ELEV,
             KATEGORI,
             SKOLE,
-            EKSAMENSGRUPPE,
-            KONTAKTLARERGRUPPE,
-            PROGRAMOMRADE,
-            UNDERVISNINGSGRUPPE,
+            BASISGRUPPE,
+            BASISGRUPPEMEDLEMSKAP,
+            UNDERVISNINGSGRUPPEMEDLEMSKAP,
             VURDERING,
+            KONTAKTLARERGRUPPE,
+            EKSAMENSGRUPPEMEDLEMSKAP,
+            KONTAKTLARERGRUPPEMEDLEMSKAP,
+            PROGRAMOMRADE,
             FRAVAR,
+            PROGRAMOMRADEMEDLEMSKAP,
+            EKSAMENSGRUPPE,
+            UNDERVISNINGSGRUPPE,
             MEDLEMSKAP
     }
 
+    private Periode gyldighetsperiode;
+    private Boolean hovedskole;
 }

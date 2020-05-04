@@ -9,15 +9,16 @@ import lombok.ToString;
 import lombok.NonNull;
 import java.util.List;
 import no.fint.model.FintMainObject;
-import no.fint.model.felles.basisklasser.Begrep;
+import no.fint.model.utdanning.basisklasser.Gruppemedlemskap;
 
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper=true)
 @ToString(callSuper=true)
-public class Karakterverdi extends Begrep implements FintMainObject {
+public class Eksamensgruppemedlemskap extends Gruppemedlemskap implements FintMainObject {
     public enum Relasjonsnavn {
-            SKALA
+            ELEVFORHOLD,
+            EKSAMENSGRUPPE
     }
 
 }

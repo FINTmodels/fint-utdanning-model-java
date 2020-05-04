@@ -1,4 +1,4 @@
-// Built from tag v3.4.0
+// Built from tag v3.5.0-rc-1
 
 package no.fint.model.utdanning.utdanningsprogram;
 
@@ -17,10 +17,11 @@ import no.fint.model.utdanning.basisklasser.Gruppe;
 @ToString(callSuper=true)
 public class Programomrade extends Gruppe implements FintMainObject {
     public enum Relasjonsnavn {
-            UTDANNINGSPROGRAM,
             ELEVFORHOLD,
+            UTDANNINGSPROGRAM,
             FAG,
             TRINN,
+            GRUPPEMEDLEMSKAP,
             GREPREFERANSE,
             VIGOREFERANSE,
             MEDLEMSKAP

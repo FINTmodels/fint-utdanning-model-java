@@ -1,4 +1,4 @@
-// Built from tag v3.4.0
+// Built from tag v3.5.0-rc-1
 
 package no.fint.model.utdanning.utdanningsprogram;
 
@@ -13,6 +13,9 @@ public enum UtdanningsprogramActions {
 	GET_PROGRAMOMRADE,
 	GET_ALL_PROGRAMOMRADE,
 	UPDATE_PROGRAMOMRADE,
+	GET_PROGRAMOMRADEMEDLEMSKAP,
+	GET_ALL_PROGRAMOMRADEMEDLEMSKAP,
+	UPDATE_PROGRAMOMRADEMEDLEMSKAP,
 	GET_SKOLE,
 	GET_ALL_SKOLE,
 	UPDATE_SKOLE,

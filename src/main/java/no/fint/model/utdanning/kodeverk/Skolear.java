@@ -1,6 +1,6 @@
 // Built from tag v3.5.0-rc-1
 
-package no.fint.model.utdanning.vurdering;
+package no.fint.model.utdanning.kodeverk;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,9 +15,5 @@ import no.fint.model.felles.basisklasser.Begrep;
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper=true)
 @ToString(callSuper=true)
-public class Karakterverdi extends Begrep implements FintMainObject {
-    public enum Relasjonsnavn {
-            SKALA
-    }
-
+public class Skolear extends Begrep implements FintMainObject {
 }

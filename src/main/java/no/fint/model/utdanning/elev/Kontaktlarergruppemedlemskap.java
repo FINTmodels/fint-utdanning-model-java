@@ -9,24 +9,16 @@ import lombok.ToString;
 import lombok.NonNull;
 import java.util.List;
 import no.fint.model.FintMainObject;
-import no.fint.model.utdanning.basisklasser.Gruppe;
+import no.fint.model.utdanning.basisklasser.Gruppemedlemskap;
 
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper=true)
 @ToString(callSuper=true)
-public class Kontaktlarergruppe extends Gruppe implements FintMainObject {
+public class Kontaktlarergruppemedlemskap extends Gruppemedlemskap implements FintMainObject {
     public enum Relasjonsnavn {
-            BASISGRUPPE,
             ELEVFORHOLD,
-            TERMIN,
-            SKOLE,
-            SKOLEAR,
-            UNDERVISNINGSFORHOLD,
-            GRUPPEMEDLEMSKAP,
-            GREPREFERANSE,
-            VIGOREFERANSE,
-            MEDLEMSKAP
+            KONTAKTLARERGRUPPE
     }
 
 }

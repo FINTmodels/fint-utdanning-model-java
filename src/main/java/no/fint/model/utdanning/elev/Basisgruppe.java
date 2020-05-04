@@ -1,4 +1,4 @@
-// Built from tag v3.4.0
+// Built from tag v3.5.0-rc-1
 
 package no.fint.model.utdanning.elev;
 
@@ -17,10 +17,13 @@ import no.fint.model.utdanning.basisklasser.Gruppe;
 @ToString(callSuper=true)
 public class Basisgruppe extends Gruppe implements FintMainObject {
     public enum Relasjonsnavn {
+            SKOLEAR,
+            ELEVFORHOLD,
+            TERMIN,
             TRINN,
             SKOLE,
             UNDERVISNINGSFORHOLD,
-            ELEVFORHOLD,
+            GRUPPEMEDLEMSKAP,
             KONTAKTLARERGRUPPE,
             GREPREFERANSE,
             VIGOREFERANSE,

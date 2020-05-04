@@ -1,4 +1,4 @@
-// Built from tag v3.4.0
+// Built from tag v3.5.0-rc-1
 
 package no.fint.model.utdanning.kodeverk;
 
@@ -16,9 +16,15 @@ public enum KodeverkActions {
 	GET_KARAKTERSKALA,
 	GET_ALL_KARAKTERSKALA,
 	UPDATE_KARAKTERSKALA,
+	GET_SKOLEAR,
+	GET_ALL_SKOLEAR,
+	UPDATE_SKOLEAR,
 	GET_SKOLEEIERTYPE,
 	GET_ALL_SKOLEEIERTYPE,
-	UPDATE_SKOLEEIERTYPE
+	UPDATE_SKOLEEIERTYPE,
+	GET_TERMIN,
+	GET_ALL_TERMIN,
+	UPDATE_TERMIN
 	;
 
 

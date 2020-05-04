@@ -9,15 +9,15 @@ import lombok.ToString;
 import lombok.NonNull;
 import java.util.List;
 import no.fint.model.FintAbstractObject;
+import no.fint.model.felles.kompleksedatatyper.Periode;
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public abstract class Utdanningsforhold implements FintAbstractObject {
-    @NonNull
-    private String beskrivelse;
+public abstract class Gruppemedlemskap implements FintAbstractObject {
+    private Periode gyldighetsperiode;
     @NonNull
     private Identifikator systemId;
 }
